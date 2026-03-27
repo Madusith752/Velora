@@ -9,6 +9,8 @@ import dropdown_icon from './dropdown_icon.png'
 import hero_img from './hero_img.jpg'
 import quality_icon from './quality_icon.png'
 import support_image from './support_image.png'
+import star_icon from './star_icon.png'
+import stardull_icon from './stardull_icon.png'
 
 import k1_1 from './k1_1.png'
 import k1_2 from './k1_2.png'
@@ -123,7 +125,9 @@ export const assets = {
     dropdown_icon,
     hero_img,
     quality_icon,
-    support_image
+    support_image,
+    star_icon,
+    stardull_icon
     
     
 }
@@ -131,7 +135,7 @@ export const assets = {
 
 export const products = [
     {
-        _id:"aaaaa",
+        id:"aaaaa",
         name: "Women Round Neck Cotton Top",
         description: "Blubelle Women's winter Thick Cashmere Knitted 2-Piece set- Soft Polo Neck Sweater & Wide Leg Pants Outfit",
         price: 30,
@@ -143,7 +147,7 @@ export const products = [
         bestseller: true
     },
     {
-        _id:"aaaab",
+        id:"aaaab",
         name: "Men's Classic Plaid Flannel; Shirt",
         description: "this shirt features a soft, durable fabric that keeps you warm without feeling heavy.",
         price:20,
@@ -155,7 +159,7 @@ export const products = [
         bestseller: true
     },
     {
-        _id:"aaaac",
+        id:"aaaac",
         name: "New York Varsity Fleece Tracksuit",
         description: "The ultimate cozy co-ord. This 2-piece set includes a relaxed-fit hoodie and matching joggers with minimalist 'New York' embroidery and a soft brushed-fleece interior.",
         price:55,
@@ -167,7 +171,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaad",
+        id:"aaaad",
         name: "Winter-Ready Thermal Lined Jeans",
         description: "Classic denim look with a hidden secret. These wide-leg relaxed jeans feature a thick thermal fleece lining to keep you warm in sub-zero temperatures without the bulk.",
         price:50,
@@ -179,7 +183,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaae",
+        id:"aaaae",
         name: "Dual-Pocket Vintage Denim Shirt",
         description: "Built for durability and style. This mid-wash denim shirt features dual chest pockets and a rugged finish that gets better with every wash. A true casual staple.",
         price:40,
@@ -191,7 +195,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaaf",
+        id:"aaaaf",
         name: "Slim-Fit Breathable Linen Chinos",
         description: "Stay cool and sharp. These lightweight linen-blend trousers offer a tailored fit with a natural texture, making them the ideal choice for summer weddings or office days.",
         price:45,
@@ -203,7 +207,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaag",
+        id:"aaaag",
         name: "Elegant Sleeveless Maxi Dress",
         description: "A stunning floor-length silhouette featuring a fitted bodice and a voluminous flared skirt. Perfect for evening galas or sophisticated summer events.",
         price:75,
@@ -215,7 +219,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaah",
+        id:"aaaah",
         name: "Bell-Sleeve Ribbed Crop Top",
         description: "Effortlessly chic. This soft, ribbed knit top features dramatic bell sleeves and a flattering cinched waist for a modern, feminine look.",
         price:28,
@@ -227,7 +231,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaai",
+        id:"aaaai",
         name: "Vintage Wash Denim Mini Dress",
         description: "A 90s-inspired denim staple. This mini dress features structured stitching and adjustable straps, crafted from premium non-stretch denim for a classic fit.",
         price:48,
@@ -239,7 +243,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaaj",
+        id:"aaaaj",
         name: "Satin Corset & Wide Leg Set",
         description: "Luxury lounge at its finest. This 2-piece set features a strapless corset-style top and matching high-waist wide-leg trousers in a silky satin finish.",
         price:85,
@@ -251,7 +255,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaak",
+        id:"aaaak",
         name: "Urban Star Denim 3-Piece Set",
         description: "A trendy and playful ensemble for the little trendsetter. This 3-piece set features a fringe-detailed denim jacket with star patterns, a classic white graphic tee, and matching distressed joggers with bold typography.",
         price:45,
@@ -263,7 +267,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaal",
+        id:"aaaal",
         name: "Varsity MVP 2-Piece Jogger Set",
         description: "Classic collegiate style for the playground. This monochrome set features a snap-button varsity jacket with contrast sleeves and striped ribbing, paired with matching joggers featuring a signature 'A' patch.",
         price:42,
@@ -275,7 +279,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaam",
+        id:"aaaam",
         name: "Little Builder Fleece Hoodie Set",
         description: "Cozy meets construction. This olive green 2-piece set features a thermal-lined hoodie with a playful 'Just a Boy who loves Trucks' graphic and matching fleece-lined joggers for ultimate warmth.",
         price:38,
@@ -287,7 +291,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaan",
+        id:"aaaan",
         name: "Classic Crane Tradition Set",
         description: "Elegant heritage meets modern comfort. This 2-piece linen-blend set features an intricate blue crane and floral print, accented with a traditional frog button closure and a delicate hanging tassel detail.",
         price:52,
@@ -299,7 +303,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaao",
+        id:"aaaao",
         name: "Minnie Magic Zip-Up Hoodie",
         description: "Sweet and sporty comfort for everyday wear. This soft pastel pink zip-up hoodie features a charming Minnie Mouse chest graphic and a playful character silhouette on the back with heart accents.",
         price:35,
@@ -311,7 +315,7 @@ export const products = [
         bestseller: true
     },
         {
-        _id:"aaaap",
+        id:"aaaap",
         name: "Thomas & Friends Track Hoodie",
         description: "All aboard for comfort! This crisp white pullover hoodie features a vibrant graphic of Thomas the Tank Engine on a circular track, accompanied by the iconic 'Thomas & Friends' logo on the chest.",
         price:32,
