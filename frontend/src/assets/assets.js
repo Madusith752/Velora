@@ -1,6 +1,6 @@
 import bin_icon from './bin_icon.webp'
 import cart_icon from './cart_icon.png'
-import cross_icon from './cross_icon.webp'
+import cross_icon from './cross_icon.png'
 import exchange_icon from './exchange_icon.png'
 import search_icon from './search_icon.png'
 import profile_icon from './profile_icon.png'
