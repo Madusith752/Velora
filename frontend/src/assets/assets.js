@@ -1,4 +1,4 @@
-import bin_icon from './bin_icon.webp'
+import bin_icon from './bin_icon.png'
 import cart_icon from './cart_icon.png'
 import cross_icon from './cross_icon.png'
 import exchange_icon from './exchange_icon.png'
@@ -139,7 +139,7 @@ export const products = [
         name: "Women Round Neck Cotton Top",
         description: "Blubelle Women's winter Thick Cashmere Knitted 2-Piece set- Soft Polo Neck Sweater & Wide Leg Pants Outfit",
         price: 30,
-        image: [w1_1],
+        image: [w1_1,w1_2,w1_3,w1_4],
         category: "Women",
         subCategory: "Topwear",
         sizes: ["S","M","L"],
