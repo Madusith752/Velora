@@ -11,6 +11,9 @@ import quality_icon from './quality_icon.png'
 import support_image from './support_image.png'
 import star_icon from './star_icon.png'
 import stardull_icon from './stardull_icon.png'
+import stripe_logo from './stripe_logo.png'
+import razerpay_logo from './razerpay_logo.png'
+
 
 import k1_1 from './k1_1.png'
 import k1_2 from './k1_2.png'
@@ -127,8 +130,10 @@ export const assets = {
     quality_icon,
     support_image,
     star_icon,
-    stardull_icon
-    
+    stardull_icon,
+    stripe_logo,
+    razerpay_logo,
+
     
 }
 
